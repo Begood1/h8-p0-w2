@@ -1,0 +1,4 @@
+if you add new file to your local folder :
+git add . -> it means that you register all of your file 
+git commit -m "you message" -> note detail your update 
+git push -u origin master -> uploaded your local project into github repo / project

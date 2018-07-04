@@ -1,0 +1,20 @@
+   1.  
+
+     f = m * a
+
+     mass = 600kg
+     accseleration = 2m /s2
+
+
+    force = mass * accelaration
+    force = 600kg * 2
+    f = 1200 N 
+
+2.  1 years = 365.25
+
+if (the year is not divissble by 4) then (it is a common year)
+   
+    or else (if the year is year is not divisble by 100) then (its a leap year)
+
+  or Else (if the year is not divisble by 400), then (its a common year)
+   
