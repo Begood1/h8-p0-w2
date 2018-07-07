@@ -2,3 +2,124 @@ if you add new file to your local folder :
 git add . -> it means that you register all of your file 
 git commit -m "you message" -> note detail your update 
 git push -u origin master -> uploaded your local project into github repo / project
+
+
+[master 0e6a162] update all
+ 3 files changed, 32 insertions(+)
+ create mode 100644 NOTE.txt.txt
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master)
+$ git push -u origin master
+To https://github.com/Begood1/h8-p0-w2.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Begood1/h8-p0-w2.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master)
+$ git pull
+Auto-merging exercise-1.txt
+CONFLICT (add/add): Merge conflict in exercise-1.txt
+Auto-merging exercise-1.png
+Automatic merge failed; fix conflicts and then commit the result.
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master|MERGING)
+
+
+
+as 
+
+
+
+$ clear
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+
+
+    Java script 
+comment
+ single line comment will comment out a single line, and is denoted with two forward slashes // preceding a line of JavaScript code.
+
+// The first 5 decimals of pi
+console.log('Pi is equal to ' + 3.14159);
+A multi-line comment will comment out multiple lines, and is denoted with /* to begin the comment, and */ to end the comment.
+
+Variables
+To write programs in JavaScript, we'll need to make our code reusable.
+
+Part of making code reusable is removing the data we want to perform some logic on to leave only the logic. Then we can use our logic on any data. Here's what we mean:
+
+Imagine you're writing a weather app. Your thermometer outside reports the temperature in Celsius and your goal is to report the temperature in Fahrenheit.
+
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master|MERGING)
+$ git add .
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master|MERGING)
+$
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master|MERGING)
+$ git commit -m "delete 1 file"
+[master 66c0e65] delete 1 file
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master)
+$ git pull
+Already up to date.
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master)
+$ git push
+Enumerating objects: 16, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.19 KiB | 19.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Begood1/h8-p0-w2.git
+   a28f984..66c0e65  master -> master
+
+Geze@Geze-PC MINGW32 ~/Documents/h8-p0-w2 (master)
+$
+var favoriteAnimal = 'Koala';
+console.log('My favorite animal: ' + favoriteAnimal);
+
+
+
+var needCoffee = true;
+if (needCoffee) {
+    console.log('Finding coffee');
+} else {
+    console.log('Keep on keeping on!');
+
+
+
+Write a variable named hungerLevel and set it equal to 5.
+
+2.
+Write an if/else statement that checks if hungerLevel is greater than 7. If so, log 'Time to eat!', and if it is less than 7, log 'Let\'s eat later.'.
+
+if (hungerLevel > 7) {
+
+} else {
+
+}
+3.
+Notice that since hungerLevel is 5, the if statement evaluates to false, therefore the else's code block runs.
+
+Now set the hungerLevel variable equal to 10 and run your code again.
+
+4.
+Now it's 'Time to eat!'
+
+We can use the <, >=, and <= to compare variables in an if/else statement, which is a powerful way to make decisions in JavaScript.
+
+Play around with these operators and values to see how exactly they work.
+}

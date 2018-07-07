@@ -1,0 +1,84 @@
+   1.  
+
+   This is the forumla,  f = m * a
+
+     mass = 600kg
+     accseleration = 2m /s2
+
+ - multiplay mass by accelertion
+
+    force = mass * accelaration
+
+    force = 600kg * 2
+    f = 1200 N 
+
+   
+
+2. if (1 years = 365.25 )
+every 4 year there is leap
+
+if (the year is not divissble by 4) then (it is a common year)
+   
+    or else (if the year is year is not divisble by 100) then (its a leap year)
+
+  or Else (if the year is not divisble by 400), then (its a common year)
+
+if(year % 4! == 0){
+   console.log('year is a common year')
+}
+else if(year % 100! === 0){
+    console.log('its a leap year');
+}
+else if(year % 400! === 0){
+console.log('its comman year')
+}
+else{
+    return false;
+
+
+3  Laundry day
+          
+         Number of clothe foxie want to wash is 20;
+        
+        cloths = 0
+     add 1 cloth to get closer to the looping limit
+    
+
+      for(var cloth = 0; cloth <= 20; cloth += 1) {
+  console.log('This is cloth : ' + cloth);
+}
+     This is the out put :
+      This is cloth  : 0
+This is cloth  : 1
+This is cloth  : 2
+This is cloth  : 3
+This is cloth  : 4
+This is cloth  : 5
+This is cloth  : 6
+This is cloth  : 7
+This is cloth  : 8
+This is cloth  : 9
+This is cloth  : 10
+This is cloth  : 11
+This is cloth  : 12
+This is cloth  : 13
+This is cloth  : 14
+This is cloth  : 15
+This is cloth  : 16
+This is cloth  : 17
+This is cloth  : 18
+This is cloth  : 19
+This is cloth  : 20
+
+        
+
+         for(var cloth = 0; cloth <= 20; cloth += 1) {
+  console.log('This is cloth  : ' + cloth);
+}
+         
+       
+4.
+
+
+
+   
