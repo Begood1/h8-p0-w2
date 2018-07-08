@@ -1,6 +1,6 @@
    1.  
 
-   This is the forumla,  f = m * a
+  using This is the forumla,  f = m * a
 
      mass = 600kg
      accseleration = 2m /s2
@@ -40,7 +40,7 @@ else{
           
          Number of clothe foxie want to wash is 20;
         
-        cloths = 0
+       set cloths = 0
      add 1 cloth to get closer to the looping limit
     
 
@@ -75,7 +75,20 @@ This is cloth  : 20
 
          
        
-4.
+4.   the teacher is examine the nails of 40 student by going around the class
+     if the teacher find nails student
+    the teacher will punsh
+
+
+
+
+    other wise the teacher will praise
+
+if(teacher find nails student === true){
+    display('punsh the student')
+  }else
+       display('praise the student')
+
 
 
 
