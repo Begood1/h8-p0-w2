@@ -1,5 +1,5 @@
-var name = 'sami';
-var role = 'witch';     
+var name = '';
+var role = '';     
 
  if(name ==='' && role ===''){
  console.log('Name must be filled');
